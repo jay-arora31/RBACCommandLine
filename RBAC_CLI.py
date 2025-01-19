@@ -124,6 +124,8 @@ class RBACCommandLine:
 
         command_type = parts[0]
 
+
+
         try:
             if command_type == "addAccess" and len(parts) == 2:
                 self.rbac.add_access(parts[1])
